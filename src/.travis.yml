@@ -1,9 +1,0 @@
-language: python
-python:
-  - "3.8"
-
-before_install: 
-  - cd src
-
-script:
-  - python -m unittest test_SHA256Hash.py
