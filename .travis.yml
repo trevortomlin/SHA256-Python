@@ -4,7 +4,6 @@ python:
 
 before_install: 
   - cd src
-  - pwd
 
 script:
   - python -m unittest test_SHA256Hash.py
